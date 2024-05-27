@@ -1,0 +1,555 @@
+@font-face {
+    font-family: "HK Thin";
+    src: url(../fonts/static/HankenGrotesk-Thin.ttf);
+}
+
+@font-face {
+    font-family: "HK Light";
+    src: url(../fonts/static/HankenGrotesk-Light.ttf);
+ }
+
+ @font-face {
+    font-family: "HK Regular";
+    src: url(../fonts/static/HankenGrotesk-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: "HK Bold";
+    src: url(../fonts/static/HankenGrotesk-Bold.ttf);
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    height: 50px;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #171419;
+    overflow-x: hidden;
+    background-color: #171419;
+  
+}
+.fundo{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    opacity: 10%;
+}
+
+/*HEADER*/
+
+.menu{
+    position: fixed;
+    right: 0;
+    margin-right: 80px;
+    margin-top: 40px;
+    top: 0;
+    z-index: 1000; 
+    font-family: "HK Light";
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    position: relative;
+    padding: 20px;
+    transition: all 200ms ease-in;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #8C52FF;
+}
+.nome{
+    padding: 20px;
+    line-height: 50px;
+    position: absolute;
+    display: flex;
+    margin: 5px;
+    margin-top: 25px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: white;
+    font-family: "HK Bold";
+}
+
+#dutra{
+    background-image: linear-gradient(90deg, #8C52FF, #E8A61E);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*FIRST SECTION*/
+
+
+#imagem{
+    width: 500px;
+}
+
+
+.saudacao{
+    padding: 25px;
+    top: 25vh;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+
+#ola{
+    font-size: 70px;
+    font-family: "HK Bold";
+ 
+}
+
+#bemvindo{
+    font-family: "HK Thin";
+    font-size: 60px;
+}
+
+#portfolio{
+    background-image: linear-gradient(90deg, #8C52FF, #E8A61E);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "HK Bold";
+    font-size: 65px;
+
+}
+
+.estudante{
+    border-radius: 5px;
+    opacity: 70%;
+    font-family: "HK Bold";
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    top: 24vh;
+    position: relative;
+}
+
+.redes{
+    margin-top: 32vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    align-items: center;
+    cursor: pointer; 
+    display: flex;
+}
+
+.redes img{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.redes img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+/*Second Section*/
+
+#trajetoria{
+    background-color: #171419;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    height: 100%;
+    position: relative;
+    list-style: none;
+    
+}
+
+.titulo{
+    font-size: 23px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 7vh;
+    font-family: "HK Regular";
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.box {
+    width: 300px;
+    height: 270px;
+    border-radius: 25px;
+    background-color: #22192e;
+    overflow: hidden;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: 0.7s;
+}
+
+.box:hover {
+    height: 400px;
+}
+
+.box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    height: 80px;
+    width: 80px;
+}
+
+.box:hover img {
+    top: 5px;
+    transform: translate(-50%, 0) scale(0.7);
+    margin-top: 20px;
+}
+
+.box h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 21px;
+    font-family: "HK Bold";
+    letter-spacing: 1px;
+    white-space: nowrap;
+
+}
+
+.box:hover h2 {
+    opacity: 0;
+}
+
+.box:hover p {
+    opacity: 1;
+}
+
+.box p{
+    position: absolute;
+    gap: 18px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 0 10px;
+    opacity: 0;
+    transition: opacity 0.7s; 
+}
+
+.box:hover p{
+    position: absolute;
+    gap: 18px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.graduacao img, .design img, .codigo img {
+    height: 80px;
+    width: 80px;
+}
+
+
+.competencias{
+    display: flex;
+    justify-content: center;
+    background-color: #22192e;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    opacity: 1;
+}
+
+
+.competencias h2{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 90px;
+    font-family: 'HK Bold';
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+.competencias div{
+    margin: 10px;
+    display: block;
+}
+
+/*Terceira Section*/
+
+#projetos{
+    background-color: #171419;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.sobreprojetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.top, .bottom {
+    display: flex;
+}
+
+.box1 img{
+    height: 150px;
+    width: 110px;
+    position: absolute;
+    left: 463px;
+    bottom: 355px;
+}
+
+.box1 h1{
+    font-family: "HK Regular";
+    font-size: 18px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    margin-left: 110px;
+    position: absolute;
+}
+
+.box1 h2{
+    font-family: "HK Regular";
+    font-size: 15px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    margin-left: 132px;
+    position: relative;
+}
+
+.box2 h1, .box3 h1, .box4 h1{
+    font-family: "HK Bold";
+    letter-spacing: 3px;
+    font-size: 25px;
+    transform: rotate(20deg);
+    border: 2px solid white;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+.box2 h1:hover, .box3 h1:hover, .box4 h1:hover{
+    font-family: "HK Bold";
+    letter-spacing: 3px;
+    font-size: 17px;
+    transform: rotate(20deg);
+    border: 0;
+    padding: 8px;
+    background-image: linear-gradient(90deg, #8C52FF, #E8A61E);
+    color: #22192e;
+    transform: scale(1.5);
+}
+
+.box1, .box3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #22192e;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 40px;
+}
+
+.box2, .box4 {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #22192e;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+/*Four Section*/
+
+#contato{
+    background-color: #171419;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+#contato .titulo {
+    position: relative;
+    top: 20px;  
+    
+}
+
+.estrela img{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 110px;
+    transform: rotate(10deg);
+}
+
+
+.carousel-inner {
+    background-color: #22192e;
+    width: 430px;
+    height: 250px;
+    border-radius: 30px;
+    bottom: 20px;
+}
+
+.carousel-item {
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    padding: 25px;
+    left: 20px;
+}
+
+.carousel-item p {
+    font-family: "HK Regular";
+    letter-spacing: 1px;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.whatsapp, .gmail {
+    margin: 7px;
+    background-color: #8C52FF;
+    padding: 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.whatsapp img, .gmail img {
+    height: 43px;
+    width: 43px;
+    transition: 0.5s;
+}
+
+.whatsapp:hover, .gmail:hover {
+    transition: 0.5s;
+    transform: scale(1.13);
+}
+
+.whatsapp img:hover, .gmail img:hover {
+    transition: 0.5s;
+    transform: scale(1.10);
+}
+
+.hidden{
+    display: none;
+}
+
+.enviaremail{
+    background-color: #22192e;
+    padding: 5px;
+    padding-top: 30px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+#email, #message{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 7px;
+}
+
+
+#button2{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-family: 'HK Regular';
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#button2:hover{
+    background-color: #8C52FF;
+    color: white;
+}
