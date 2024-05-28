@@ -321,6 +321,12 @@ body{
     display: block;
 }
 
+.competencias img:hover{
+    height: 70px;
+    width: 70px;
+    transition: 0.5s;
+}
+
 /*Terceira Section*/
 
 #projetos{
