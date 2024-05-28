@@ -321,11 +321,16 @@ body{
     display: block;
 }
 
+.competencias img{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .competencias img:hover{
     height: 70px;
     width: 70px;
-    transition: 0.5s;
 }
+
 
 /*Terceira Section*/
 
