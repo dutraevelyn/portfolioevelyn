@@ -1,21 +1,21 @@
 @font-face {
     font-family: "HK Thin";
-    src: url(../fonts/static/HankenGrotesk-Thin.ttf);
+    src: url(fonts/static/HankenGrotesk-Thin.ttf);
 }
 
 @font-face {
     font-family: "HK Light";
-    src: url(../fonts/static/HankenGrotesk-Light.ttf);
+    src: url(fonts/static/HankenGrotesk-Light.ttf);
  }
 
  @font-face {
     font-family: "HK Regular";
-    src: url(../fonts/static/HankenGrotesk-Regular.ttf);
+    src: url(fonts/static/HankenGrotesk-Regular.ttf);
  }
 
  @font-face {
     font-family: "HK Bold";
-    src: url(../fonts/static/HankenGrotesk-Bold.ttf);
+    src: url(fonts/static/HankenGrotesk-Bold.ttf);
  }
 
 *{
