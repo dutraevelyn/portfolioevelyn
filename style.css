@@ -350,31 +350,21 @@ body{
     display: flex;
 }
 
+.box1{
+    display: flex;
+}
+
 .box1 img{
-    height: 150px;
-    width: 110px;
-    position: absolute;
-    left: 463px;
-    bottom: 355px;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 50%;
+    transition: 0.5s;
 }
 
-.box1 h1{
-    font-family: "HK Regular";
-    font-size: 18px;
-    margin-bottom: 100px;
-    letter-spacing: 2px;
-    margin-left: 110px;
-    position: absolute;
+.box1 img:hover{
+    opacity: 100%;
 }
 
-.box1 h2{
-    font-family: "HK Regular";
-    font-size: 15px;
-    margin-top: 10px;
-    letter-spacing: 1px;
-    margin-left: 132px;
-    position: relative;
-}
 
 .box2 h1, .box3 h1, .box4 h1{
     font-family: "HK Bold";
