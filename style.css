@@ -301,7 +301,21 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 80px;
-    opacity: 1;
+}
+
+
+.competencias img{
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.competencias img:hover{
+    background-color: #312442;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding: 5px;
 }
 
 
@@ -313,6 +327,12 @@ body{
     font-family: 'HK Bold';
     font-size: 15px;
     letter-spacing: 1px;
+    background-image: linear-gradient(90deg, #8C52FF, #E8A61E);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 
