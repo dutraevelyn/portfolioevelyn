@@ -47,6 +47,7 @@ body{
 /*HEADER*/
 
 .menu{
+    position: relative;
     right: 0;
     margin-right: 80px;
     margin-top: 40px;
