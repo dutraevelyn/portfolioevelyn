@@ -55,6 +55,7 @@ body{
     font-family: "HK Light";
     text-align: right; 
     right: 50px;
+    visibility: hidden;
 }
 
 .menu ul{
@@ -87,6 +88,7 @@ body{
     font-size: 20px;
     color: white;
     font-family: "HK Bold";
+    visibility: hidden;
 }
 
 #dutra{
@@ -95,6 +97,7 @@ body{
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
+    visibility: hidden;
 }
 
 /*FIRST SECTION*/
@@ -113,6 +116,7 @@ body{
     text-align: center;
     display: block;
     position: relative;
+    visibility: hidden;
 }
 
 
@@ -148,6 +152,7 @@ body{
     text-align: center;
     top: 24vh;
     position: relative;
+    visibility: hidden;
 }
 
 .redes{
@@ -192,6 +197,7 @@ body{
     text-align: center;
     margin-bottom: 7vh;
     font-family: "HK Regular";
+    visibility: hidden;
 }
 
 
@@ -204,6 +210,7 @@ body{
     margin: 10px;
     margin-bottom: 80px;
     justify-content: space-between;
+    visibility: hidden;
 }
 
 .box {
@@ -299,6 +306,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 80px;
+    visibility: hidden;
 }
 
 .competencias img{
@@ -367,6 +375,7 @@ body{
 
 .top, .bottom {
     display: flex;
+    visibility: hidden;
 }
 
 .box1{
@@ -458,6 +467,7 @@ body{
     position: relative;
     bottom: 110px;
     transform: rotate(10deg);
+    visibility: hidden;
 }
 
 
@@ -492,9 +502,7 @@ body{
 }
 
 .whatsapp, .gmail {
-    margin: 7px;
-    background-color: #8C52FF;
-    padding: 9px;
+    padding: 2px;
     border-radius: 50%;
     cursor: pointer;
     margin-left: 10px;
@@ -502,8 +510,8 @@ body{
 }
 
 .whatsapp img, .gmail img {
-    height: 43px;
-    width: 43px;
+    height: 55px;
+    width: 55px;
     transition: 0.5s;
 }
 
