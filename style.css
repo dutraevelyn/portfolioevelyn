@@ -46,14 +46,15 @@ body{
 
 /*HEADER*/
 
-.menu{
-    position: relative;
+.menu {
+    position: absolute;
     right: 0;
-    margin-right: 80px;
     margin-top: 40px;
     top: 0;
     z-index: 1000; 
     font-family: "HK Light";
+    text-align: right; 
+    right: 50px;
 }
 
 .menu ul{
