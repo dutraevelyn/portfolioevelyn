@@ -18,6 +18,57 @@
     src: url(./fonts/static/HankenGrotesk-Bold.ttf);
  }
 
+@media screen and (max-width: 500px){
+    .menu{
+        display: none;
+    }
+
+    .nome{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        left: 20px;
+    }
+
+
+    .estudante p{
+        font-size: 25px;
+    }
+
+    #trajetoria{
+        top: 500px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        margin-top: 10px;
+    }
+    
+    #projetos{
+        top: 700px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box2, .box3, .box4{
+        visibility: hidden;
+    }
+
+    #contato{
+        top: 600px;
+    }
+
+ }
+
 *{
     margin: 0;
     padding: 0;
