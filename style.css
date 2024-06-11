@@ -18,7 +18,7 @@
     src: url(./fonts/static/HankenGrotesk-Bold.ttf);
  }
 
-@media screen and (max-width: 500px){
+ @media screen and (max-width: 500px){
     .menu{
         display: none;
     }
@@ -49,7 +49,7 @@
     }
     
     #projetos{
-        top: 700px;
+        top: 900px;
         justify-content: center;
         align-items: center;
     }
@@ -67,8 +67,36 @@
         top: 600px;
     }
 
- }
+    .competencias {
+        padding: 5px 10px;
+        height: auto;
+        width: 70%;
+        margin-left: 10px;
+    }
+    
+    .competencias img {
+        height: 41px; 
+    }
+    
+    .competencias h2 {
+        font-size: 10px;
+        margin-top: 60px; 
+    }
 
+    .competencias div{
+        margin-top: 15px;
+    }
+
+    #contato{
+       top: 800px;
+    }
+
+    .carousel-inner{
+        width: 280px;
+        height: 100px;
+    }
+
+ }
 *{
     margin: 0;
     padding: 0;
