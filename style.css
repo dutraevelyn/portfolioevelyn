@@ -91,10 +91,11 @@
        top: 800px;
     }
 
-    .carousel-inner{
-        width: 280px;
-        height: 100px;
+    .carousel-inner {
+        
     }
+
+
 
  }
 
@@ -390,6 +391,7 @@ body{
 }
 
 .competencias img{
+    margin-top: 5px;
     transition: 0.5s;
     cursor: pointer;
     border-radius: 50%;
