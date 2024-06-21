@@ -398,13 +398,6 @@ body{
     padding: 5px;
 }
 
-.competencias img:hover{
-    background-color: #312442;
-    border-radius: 50%;
-    transition: 0.5s;
-    padding: 5px;
-}
-
 
 .competencias h2{
     text-align: center;
