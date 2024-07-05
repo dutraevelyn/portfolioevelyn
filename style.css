@@ -37,21 +37,27 @@
 
     #trajetoria{
         top: 500px;
+        padding: 0 100px;
     }
 
     .container{
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
 
-    .box{
-        margin-top: 10px;
+    .box {
+        width: 100%; 
+        margin: 10px 0;
     }
     
     #projetos{
-        top: 900px;
+        top: 1000px;
+        margin-bottom: 100px;
         justify-content: center;
         align-items: center;
+        padding: 0 10px;
+        flex-direction: column;
     }
 
     .top{
@@ -59,7 +65,19 @@
         flex-direction: column;
     }
 
-    .box2, .box3, .box4{
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .top, .bottom {
+        flex-direction: column;
+        visibility: visible;
+        align-items: center;
+    }
+
+    .box3, .box4{
         visibility: hidden;
     }
 
@@ -69,9 +87,11 @@
 
     .competencias {
         padding: 5px 10px;
-        height: auto;
-        width: 70%;
         margin-left: 10px;
+    }
+
+    #competencias{
+        height: 60px;
     }
     
     .competencias img {
@@ -80,21 +100,46 @@
     
     .competencias h2 {
         font-size: 10px;
-        margin-top: 60px; 
     }
 
-    .competencias div{
-        margin-top: 15px;
-    }
 
     #contato{
-       top: 800px;
+       top: 700px;
     }
 
-    .carousel-inner {
-        
+    #carouselExampleFade{
+        width: 300px;
+        height: 100%;
     }
 
+    .carousel-item.active{
+        height: 100px;
+        width: 100px;
+    }
+
+    .carousel-item.active p{
+        height: 100px;
+        width: 200px;
+        font-size: 12px;
+    }
+    .carousel-item{
+        height: 100px;
+        width: 100px;
+    }
+
+    #carouselm{
+        width: 300px;
+   }
+
+   #estrela img{
+    height: 40px;
+    width: 40px;
+    }
+
+    .whatsapp img, .gmail img {
+        height: 40px;
+        width: 40px;
+    }
 
 
  }
@@ -398,6 +443,13 @@ body{
     padding: 5px;
 }
 
+.competencias img:hover{
+    background-color: #312442;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding: 5px;
+}
+
 
 .competencias h2{
     text-align: center;
@@ -594,7 +646,7 @@ body{
 }
 
 .hidden{
-    display: none;
+    visibility: hidden;
 }
 
 .enviaremail{
