@@ -364,9 +364,9 @@ body{
 }
 
 .box:hover img {
-    top: 5px;
+    top: 0px;
     transform: translate(-50%, 0) scale(0.7);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .box h2 {
