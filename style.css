@@ -111,22 +111,26 @@
 
     .carousel-item.active{
         height: 100px;
-        width: 100px;
+        width: 150px;
     }
 
-    .carousel-item.active p{
-        height: 100px;
-        width: 200px;
+    .carousel-item p{
+        width: 300px;
         font-size: 12px;
+        padding-right: 150px;
     }
 
-    .carousel-item{
-        height: 100px;
-        width: 100px;
+    .carousel-item, .carousel-caption {
+        font-size: 12px;
+        display: none;
+        
     }
+
+    
 
     #carouselm{
         width: 300px;
+        height: 300px;
    }
 
    #estrela img{
@@ -587,7 +591,7 @@ body{
 
 .carousel-inner {
     background-color: #22192e;
-    width: 430px;
+    width: 450px;
     height: 300px;
     border-radius: 30px;
     bottom: 20px;
@@ -598,15 +602,19 @@ body{
     text-align: center; 
     align-items: center;
     justify-content: center;
-    width: 380px;
     padding: 25px;
-    left: 20px;
+    left: 50px;
 }
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+  }
 
 
 .carousel-item p {
     font-family: "HK Regular";
     letter-spacing: 1px;
+    width: 300px;
 }
 
 .contatos{
@@ -655,7 +663,6 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    
 }
 #email{
     width: 40%;
@@ -675,7 +682,6 @@ body{
 
 
 #button2{
-    color: #22192e;
     background-color: white;
     border: none;
     padding: 5px;
