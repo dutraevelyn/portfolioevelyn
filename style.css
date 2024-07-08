@@ -680,8 +680,8 @@ body{
 
 
 #button2{
-    color: #8C52FF;
-    background-color: white;
+    background-color: #8C52FF;
+    color: white;
     border: none;
     padding: 5px;
     margin-top: 15px;
@@ -692,9 +692,4 @@ body{
     transition: 0.4s;
     margin-left: 50%;
     transform: translate(-50%, -50%);
-}
-
-#button2:hover{
-    background-color: #8C52FF;
-    color: white;
 }
