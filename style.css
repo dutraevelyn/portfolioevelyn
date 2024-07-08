@@ -104,33 +104,32 @@
        top: 700px;
     }
 
-    #carouselExampleFade{
+   #carouselExampleFade{
         width: 300px;
         height: 100%;
     }
 
     .carousel-item.active{
+        top: 20px;
         height: 100px;
-        width: 150px;
+        width: 100px;
     }
 
-    .carousel-item p{
-        width: 300px;
+    .carousel-item.active p{
+        width: 210px;
         font-size: 12px;
-        padding-right: 150px;
+        transform: translate(-15%);
     }
 
     .carousel-item, .carousel-caption {
         font-size: 12px;
         display: none;
-        
     }
-
-    
 
     #carouselm{
         width: 300px;
-        height: 300px;
+        height: 281px;
+
    }
 
    #estrela img{
