@@ -305,6 +305,10 @@ body{
     width: 70px;
 }
 
+#cv{
+    visibility: hidden;
+}
+
 .curriculo{
     align-items: center;
     text-align: center;
@@ -320,7 +324,6 @@ body{
     height: 65px;
     width: 65px;
     transition: 0.7s;
-    visibility: hidden;
 }
 
 .curriculo img:hover{
