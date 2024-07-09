@@ -18,7 +18,6 @@
     src: url(./fonts/static/HankenGrotesk-Bold.ttf);
  }
 
-
  
 
  @media screen and (max-width: 500px){
@@ -33,11 +32,14 @@
         left: 20px;
     }
 
-
     .estudante p{
         font-size: 25px;
     }
-
+    
+    #cv{
+        top: 120px;
+    }
+    
     #trajetoria{
         top: 500px;
     }
@@ -104,12 +106,13 @@
        top: 700px;
     }
 
-   #carouselExampleFade{
+    #carouselExampleFade{
         width: 300px;
         height: 100%;
     }
 
     .carousel-item.active{
+        top: 20px;
         height: 100px;
         width: 100px;
     }
@@ -234,8 +237,8 @@ body{
 
 
 .saudacao{
-    padding: 25px;
-    top: 25vh;
+    padding: 15px;
+    top: 19vh;
     color: white;
     align-items: center;
     text-align: center;
@@ -275,13 +278,13 @@ body{
     color: white;
     align-items: center;
     text-align: center;
-    top: 24vh;
+    top: 19vh;
     position: relative;
     visibility: hidden;
 }
 
 .redes{
-    margin-top: 32vh;
+    margin-top: 26vh;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50vw;
@@ -302,6 +305,27 @@ body{
     width: 70px;
 }
 
+.curriculo{
+    align-items: center;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 80px;
+}
+
+.curriculo img{
+    background-color: #22192e;
+    padding: 10px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    transition: 0.7s;
+}
+
+.curriculo img:hover{
+    box-shadow: #6039af 0px 0px 20px ;
+}
+
 /*Second Section*/
 
 #trajetoria{
@@ -313,7 +337,7 @@ body{
     justify-content: center;
     height: 100vh;
     position: relative;
-    margin-top: 30%;
+    margin-top: 25%;
 }
 
 .titulo{
@@ -680,8 +704,7 @@ body{
 
 
 #button2{
-    background-color: #8C52FF;
-    color: white;
+    background-color: white;
     border: none;
     padding: 5px;
     margin-top: 15px;
@@ -692,4 +715,9 @@ body{
     transition: 0.4s;
     margin-left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#button2:hover{
+    background-color: #8C52FF;
+    color: white;
 }
