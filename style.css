@@ -592,7 +592,7 @@ body{
     justify-content: center;
     height: 100vh;
     position: relative;
-
+    margin-top: 10%;
 }
 
 #contato .titulo {
