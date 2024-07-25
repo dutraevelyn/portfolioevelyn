@@ -24,3 +24,6 @@ sr.reveal('.estrela img', { duration: 1000})
 sr.reveal('.carousel-inner', { duration: 1000})
 sr.reveal('.contatos', { duration: 1000})
 sr.reveal('#cv', { duration: 1000})
+
+
+
