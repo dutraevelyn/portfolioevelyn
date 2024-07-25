@@ -29,16 +29,17 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        left: 20px;
-    }
-     
-    .saudacao{
-        margin-left: 20px;
-        margin-right: 20px;
+        left: 15px;
     }
 
     .estudante p{
         font-size: 25px;
+        padding: 10px;
+    }
+
+    #bemvindo{
+        font-size: 20px;
+        padding: 10px;
     }
     
     #cv{
@@ -51,11 +52,12 @@
 
     .box {
         width: 100%; 
-        margin: 10px 0;
+        left: 10px;
+        margin-top: 20px;
     }
     
     #projetos{
-        top: 1000px;
+        top: 900px;
         margin-bottom: 100px;
         justify-content: center;
         align-items: center;
@@ -85,7 +87,7 @@
     }
 
     #contato{
-        top: 600px;
+        top: 100px;
     }
 
     .competencias {
@@ -96,6 +98,7 @@
 
     #competencias{
         height: 60px;
+        margin-bottom: 20px;
     }
     
     .competencias img {
@@ -117,7 +120,7 @@
     }
 
     .carousel-item.active{
-        top: 20px;
+        top: 10px;
         height: 100px;
         width: 100px;
     }
@@ -140,13 +143,18 @@
    }
 
    #estrela img{
-    height: 40px;
-    width: 40px;
+        bottom: 120px;
+        height: 40px;
+        width: 40px;
     }
 
     .whatsapp img, .gmail img {
         height: 40px;
         width: 40px;
+    }
+
+    .enviaremail{
+        margin-top: -90px;
     }
 
  }
@@ -161,6 +169,7 @@
 .menu {
     height: 50px;
 }
+
 
 
 body{
@@ -323,12 +332,13 @@ body{
 }
 
 .curriculo img{
-    background-color: #22192e;
+    background-color: #171419;
     padding: 10px;
     border-radius: 50%;
     height: 65px;
     width: 65px;
     transition: 0.7s;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
 }
 
 .curriculo img:hover{
@@ -339,7 +349,7 @@ body{
 
 #trajetoria{
     background-color: #171419;
-    width: 100%;
+    width: 100vw;
     color: white;
     display: flex;
     align-items: center;
@@ -365,7 +375,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
     margin-bottom: 80px;
     visibility: hidden;
     flex-wrap: wrap;
@@ -374,8 +383,9 @@ body{
 .box {
     width: 300px;
     height: 270px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
     border-radius: 25px;
-    background-color: #22192e;
+    background-color: #171419;
     overflow: hidden;
     margin-right: 20px;
     flex-direction: column;
@@ -393,7 +403,7 @@ body{
 
 .box img {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
@@ -408,6 +418,7 @@ body{
 }
 
 .box h2 {
+    top: 70%;
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -455,8 +466,9 @@ body{
 .competencias{
     display: flex;
     justify-content: center;
-    background-color: #22192e;
-    border-radius: 10px;
+    background-color: #171419;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
+    border-radius: 20px;
     padding: 5px;
     position: absolute;
     left: 50%;
@@ -471,10 +483,9 @@ body{
 }
 
 .competencias img{
-    margin-top: 5px;
-    transition: 0.5s;
+    margin-top: 8px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 1px;
 }
 
 
@@ -482,7 +493,7 @@ body{
     text-align: center;
     justify-content: center;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 90px;
     font-family: 'HK Bold';
     font-size: 15px;
     letter-spacing: 1px;
@@ -527,6 +538,7 @@ body{
 
 .box1{
     display: flex;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
 }
 
 .box1 img{
@@ -569,7 +581,8 @@ body{
     width: 300px;
     height: 200px;
     border-radius: 25px;
-    background-color: #22192e;
+    background-color: #171419;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
     margin-right: 10px;
     display: flex;
     align-items: center;
@@ -581,7 +594,8 @@ body{
     width: 300px;
     height: 200px;
     border-radius: 25px;
-    background-color: #22192e;
+    background-color: #171419;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
     margin-left: 10px;
     display: flex;
     align-items: center;
@@ -601,7 +615,7 @@ body{
     justify-content: center;
     height: 100vh;
     position: relative;
-    margin-top: 10%;
+
 }
 
 #contato .titulo {
@@ -621,7 +635,8 @@ body{
 
 
 .carousel-inner {
-    background-color: #22192e;
+    background-color: #171419;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
     width: 450px;
     height: 300px;
     border-radius: 30px;
@@ -683,20 +698,27 @@ body{
     visibility: hidden;
 }
 
+.forme{
+    background-color: #171419;
+}
+
 .enviaremail{
-    background-color: #22192e;
+    background-color: #171419;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
+    border-radius: 25px;
     padding: 5px;
-    padding-top: 30px;
+    padding-top: 20px;
     position: absolute;
     top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 60%;
 }
+
 #email{
-    width: 40%;
+    width: 60%;
     border-radius: 10px;
     margin-left: 50%;
     transform: translate(-50%, -50%);
@@ -704,7 +726,7 @@ body{
 
 #message{
     margin-bottom: -70px;
-    width: 40%;
+    width: 60%;
     height: 50px;
     border-radius: 10px;
     margin-left: 50%;
@@ -713,6 +735,8 @@ body{
 
 
 #button2{
+    color: #171419;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
     background-color: white;
     border: none;
     padding: 5px;
@@ -724,6 +748,7 @@ body{
     transition: 0.4s;
     margin-left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "HK Bold";
 }
 
 #button2:hover{
