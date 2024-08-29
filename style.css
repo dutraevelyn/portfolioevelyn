@@ -553,7 +553,25 @@ body{
     box-shadow: #6039af 0px 0px 20px;
 }
 
-.box2 h1, .box3 h1, .box4 h1{
+.box2{
+    display: flex;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
+}
+
+.box2 img:hover{
+    opacity: 100%;
+    box-shadow: #6039af 0px 0px 20px;
+}
+
+.box2 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.box3 h1, .box4 h1{
     font-family: "HK Bold";
     letter-spacing: 3px;
     font-size: 25px;
@@ -564,7 +582,7 @@ body{
     transition: transform .5s ease;
 }
 
-.box2 h1:hover, .box3 h1:hover, .box4 h1:hover{
+.box3 h1:hover, .box4 h1:hover{
     font-family: "HK Bold";
     letter-spacing: 3px;
     font-size: 17px;
@@ -602,6 +620,8 @@ body{
     justify-content: center;
     margin: 10px;
 }
+
+
 
 
 /*Four Section*/
