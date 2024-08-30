@@ -57,7 +57,7 @@
     }
     
     #projetos{
-        top: 1000px;
+        top: 1100px;
         margin-bottom: 100px;
         justify-content: center;
         align-items: center;
@@ -105,9 +105,8 @@
         font-size: 10px;
     }
 
-
     #contato{
-       top: 600px;
+       top: 700px;
     }
 
     #carouselExampleFade{
