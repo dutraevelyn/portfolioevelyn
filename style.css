@@ -57,7 +57,7 @@
     }
     
     #projetos{
-        top: 900px;
+        top: 1000px;
         margin-bottom: 100px;
         justify-content: center;
         align-items: center;
@@ -86,10 +86,6 @@
         visibility: hidden;
     }
 
-    #contato{
-        top: 100px;
-    }
-
     .competencias {
         padding: 5px 10px;
         margin-right: 100px;
@@ -111,7 +107,7 @@
 
 
     #contato{
-       top: 700px;
+       top: 600px;
     }
 
     #carouselExampleFade{
