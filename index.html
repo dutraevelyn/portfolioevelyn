@@ -15,16 +15,29 @@
 
 </head>
 <body>
-    
     <header>
-        <div class="nome"><strong> < Evelyn <span id="dutra">Dutra /></span></strong></div>
-        <nav class="menu">
-            <ul>
-                <a class="link" href="#index"><li> Inicial</li></a>
-                <a class="link" href="#trajetoria"><li>Trajetória</li></a>
-                <a class="link" href="#projetos"><li>Projetos</li></a>
-                <a class="link" href="#contato"><li>Feedbacks</li></a>
-            </ul> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><strong> < Evelyn <span id="dutra">Dutra /></span></strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#index">Inicial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#trajetoria">Trajetória</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contato">Feedbacks</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </nav><div class="curriculo" id="cv">
             <a href="https://drive.google.com/file/d/1x4s65tT1CCd-spHT9VZSxVtYfj_4JhUD/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="imagens/icons8-papel-64.png" alt=""></a>
     </header>
@@ -32,7 +45,7 @@
     <section id="index">
             <div class="conteudo-pricipal">
                 <div class="saudacao">
-                    <h1> <span id="ola">Olá!</span> <br> <span id="bemvindo">Bem-vindo ao meu<br></span><span id="portfolio"> Portfólio</span></h1>
+                    <h1 class="ola"> Olá! <br><span class="bemvindo" style="font-family: HK Thin;">Bem-vindo ao meu <br></span> <span class="highlight">Portfólio</span> </h1>
                 </div>
                     <div class="estudante"><p>Desenvolvedora Front-End</p></div>
                     <div class="redes">
@@ -91,7 +104,7 @@
             <div class="top">
                 <div class="box1"> <a href="https://github.com/dutraevelyn/CalculadoraProjeto" target="_blank"> <img src="imagens/Calculadora.jpeg" alt=""></a>
                 </div>
-               <div class="box2"><a href="https://github.com/dutraevelyn/todolist"><img src="imagens/lista.jpg" alt=""></a></div>
+                <div class="box2"><a href="https://github.com/dutraevelyn/todolist"><img src="imagens/lista.jpg" alt=""></a></div>
             </div>
             <div class="bottom">
                 <div class="box3"><h1>EM BREVE</h1></div>
@@ -117,16 +130,23 @@
                     </p>
                   </div>
                   <div class="carousel-item">
+                    <p><strong>“A Evelyn é uma pessoa muito focada, caprichosa em tudo o que faz, além de se relacionar muito bem com os demais colegas. Não hesito em recomendar a Evelyn ao mercado de trabalho, porque sei que terá sucesso onde estiver. Excelente aluna e pessoa."</strong>
+                        <br>
+                    -Marcio Schoenfelder | Professor de Desenvolvimento de Sistemas
+                    </p>
+                  </div>
+                  <div class="carousel-item">
                        <p><strong>“Profissional muito promissora, com facilidade de absorção de conteúdo e uma visão crítica. recomendo para projetos e trabalhos.”</strong> <br>
                         <br>
                        -Jhonni Silva | Professor de Desenvolvimento Web
                        </p>
                   </div>
                   <div class="carousel-item">
-                    <p><strong>“A Evelyn é uma pessoa muito focada, caprichosa em tudo o que faz, além de se relacionar muito bem com os demais colegas. Não hesito em recomendar a Evelyn ao mercado de trabalho, porque sei que terá sucesso onde estiver. Excelente aluna e pessoa."</strong>
+                        <p><strong>“Tive o privilégio de ter a Evelyn como colega durante o ensino médio, uma pessoa dedicada e sempre disposta a aprender e a ajudar!
+
+                        Recomendo a Evelyn para oportunidades em programação de front end.”</strong><br>
                         <br>
-                    -Marcio Schoenfelder | Professor de Desenvolvimento de Sistemas
-                    </p>
+                        -Fernando Janke | Colega de Classe</p> 
                   </div>
                   <div class="carousel-item">
                     <p><strong>“Profissional criativa, dinâmica e comunicativa!
@@ -159,7 +179,7 @@
                 <br>
                 <label id="message" for="message">Mensagem</label>
                 <input type="text" name="message" id="message"  id="message" required>
-                <button id="button2" type="submit">Enviar</button>
+                <button id="button2" type="submit" onclick="clicar()">Enviar</button>
            </form>
         </div>
               </div>
