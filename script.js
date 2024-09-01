@@ -10,9 +10,6 @@ document.querySelector('.gmail').addEventListener('click', function() {
 window.sr = ScrollReveal({ reset: true })
 
 sr.reveal('.titulo', { duration: 1000})
-sr.reveal('.menu', { duration: 1000})
-sr.reveal('.nome', { duration: 1000})
-sr.reveal('#dutra', { duration: 1000})
 sr.reveal('.saudacao', { duration: 1000})
 sr.reveal('.estudante', { duration: 1000})
 sr.reveal('.redes', { duration: 1000})
@@ -25,5 +22,7 @@ sr.reveal('.carousel-inner', { duration: 1000})
 sr.reveal('.contatos', { duration: 1000})
 sr.reveal('#cv', { duration: 1000})
 
-
+function clicar(){
+    alert("Mensagem Enviada!")
+}
 
