@@ -160,6 +160,13 @@
         margin-top: -70px;
     }
 
+    .navbar-collapse {
+        display: flex;
+        text-align: right;
+        padding: 20px;
+        font-size: 18px;
+        font-family: "HK Regular";
+    }
  }
 
 *{
@@ -178,6 +185,8 @@ body{
 
 .navbar-toggler {
     background-color: #E8A61E;
+    margin-right: 30px;
+    margin-top: 5px;
 }
 
 .navbar.bg-light {
@@ -212,7 +221,6 @@ body{
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    visibility: hidden;
 }
 
 /*FIRST SECTION*/
@@ -419,7 +427,6 @@ body{
     display: flex;
     justify-content: center;
     background-color: #171419;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.478);
     border-radius: 20px;
     padding: 5px;
     position: absolute;
@@ -431,7 +438,7 @@ body{
 }
 
 .competencias img{
-    margin-top: 8px;
+    margin-top: 25px;
     border-radius: 50%;
     padding: 1px;
 }
@@ -441,7 +448,6 @@ body{
     text-align: center;
     justify-content: center;
     position: absolute;
-    margin-top: 90px;
     font-family: 'HK Bold';
     font-size: 15px;
     letter-spacing: 1px;
